@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/clockfabric/reactania/precache-manifest.0bf262ea6bd7eaa8cbb0a052775b6203.js"
+  "/reactania/precache-manifest.7be20008c794417d8ea2a774e779eed9.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/clockfabric/reactania/index.html", {
+workbox.routing.registerNavigationRoute("/reactania/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
